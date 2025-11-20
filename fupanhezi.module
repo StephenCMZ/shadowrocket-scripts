@@ -1,0 +1,9 @@
+#!name=复盘盒子
+#!desc=复盘盒子SVIP
+#!author=StephenChen
+
+[Script]
+复盘盒子=type=http-response,pattern=^https://www\.fupanhezi\.com/usercenter/v1/user/detail,requires-body=true,script-path=https://raw.githubusercontent.com/StephenCMZ/shadowrocket-scripts/refs/heads/main/fupanhezi.js
+
+[MITM]
+hostname=www.fupanhezi.com
